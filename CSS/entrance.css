@@ -1,0 +1,44 @@
+.form_entrance{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 6%;
+    margin: 8% 30%;
+}
+.form_entrance form{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.form_entrance .field{
+    margin: 1em 0em;
+    width: 100%;
+}
+.form_entrance input[type="submit" i]{
+    width: 8em; 
+    margin: 1em 0em;
+}
+.form_entrance .button_block{
+    width: 102%;    
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+}
+.form_entrance .name_form{
+    margin: 2em;
+}
+.form_entrance input{
+    font-size: medium;
+}
+.form_entrance .name_form{
+    font-size: x-large;
+}
+.form_entrance .message_block{
+    display: flex;
+    align-items:center;
+    padding: 2% 4%;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgba(41, 41, 41, 0.479);
+}

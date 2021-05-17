@@ -1,0 +1,52 @@
+.profile{
+    display: flex;
+    flex-direction:row;
+    padding: 2em 2%;
+    margin: 1.5% 2%;
+}
+.profile img{
+    padding-right: 2em;
+}
+.profile .information{    
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;   
+    width: 100%; 
+}
+.profile .panel{
+    margin: 1em 0em;
+    width: 100%;    
+    display: flex;    
+    justify-content:space-between;
+}
+.profile .name_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile .name_block h1{
+    font-size: x-large;
+}
+.profile .panel .change{    
+    display: flex;    
+    justify-content:flex-end;
+}
+.profile .yourself{
+    padding: 1% 1%;
+    margin: 1% 0%;
+    height: 100%;
+    width: 100%; 
+}
+.profile .panel .change .button{   
+    border: 1px solid rgb(22, 22, 22); /* Рамка */
+    display: inline-block;
+    text-align: center;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+    margin: 0.5em;
+}
+.profile .panel .change .button{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    color: rgb(0, 0, 0);
+}

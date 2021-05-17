@@ -1,0 +1,23 @@
+.background_c{
+    background-color: #f2f8ff;
+}
+.heder_c{
+    background-color: #CDE4FF;
+}
+.content_cl{
+    background-color: #daeaff;
+}
+.content_cb{
+    background-color: #ABC4E2;
+}
+.button_cl{
+    background-color: #ECF4FF;
+}
+.button_cb{
+    /* background-color: #ABC4E2;
+    color: #D6E6FF; */
+    background-color: #d2dbe9;
+} 
+.footer_c{
+    background-color: #6F9FD7;
+}

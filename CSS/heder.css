@@ -1,0 +1,81 @@
+.heder {
+  padding: 0em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heder .navigation {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 2.3%; */
+  width: 60%;
+}
+.heder .navigation .link {
+  text-decoration: none;
+  color: black;
+  margin: 1em 0em 0em 1em;
+}
+.heder .navigation .logo {
+  width: 50px;
+}
+.heder .navigation .logo_image {
+  width: 50px;
+}
+.heder .navigation .logo_image:hover {
+  width: 45px;
+  padding-left: 2.5px;
+  padding-top: 2.5px;
+}
+.heder .navigation .link:hover {
+  text-decoration: underline;
+}
+.heder .search {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.heder .search form {
+  margin: 1em 0em;
+}
+.heder input[type="search" i] {
+  width: 20em;
+}
+.heder .entrance{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.heder .entrance .user .avatar {
+  border-radius: 100%;
+  border: 2px solid black;
+}
+.heder .entrance .user{
+  display: flex;
+  flex-direction: row;
+}
+.heder .entrance .user .name_block{
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  margin-right: 5%;
+}
+.heder .entrance .user .name_block a {
+  text-decoration: none;
+  color: black;
+  padding: 0% 2%;
+  font-size: 150%;
+}
+.heder .entrance .name_block a:hover {
+  text-decoration: underline;
+}
+.heder .entrance .button a {
+  text-decoration: none; /* Убираем подчёркивание */
+}
+.heder .entrance .button {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(22, 22, 22); /* Рамка */
+  padding: 5px 2%; /* Поля */
+  margin: 0.5em 0em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  width: 100%;
+}
